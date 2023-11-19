@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'zen-heading';
+  src: url('/assets/font/euro-ext.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'zen-default';
+  src: url('/assets/font/euro-ukr.woff2') format('woff2');
+}
+
+body {
+  min-height: 100vh;
+  font-family: 'zen-default'
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'zen-heading';
+}
